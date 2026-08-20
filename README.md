@@ -1,4 +1,4 @@
-🏠 Airbnb Data Engineering Project
+**Airbnb Data Engineering Project**
 
 An end-to-end data engineering project built around Airbnb data using Snowflake, dbt, AWS S3, and Python.
 
@@ -9,6 +9,7 @@ This project demonstrates how raw Airbnb data can be transformed into analytics-
 The pipeline covers data ingestion, transformation, testing, and historical data tracking.
 
 🏗️ Architecture
+```
 CSV Data
    ↓
 AWS S3
@@ -18,13 +19,13 @@ Snowflake
 Bronze → Silver → Gold
    ↓
 Analytics-ready Data
-
+```
 🛠️ Tech Stack
-Snowflake – Data warehouse
-dbt – Data transformation and testing
-AWS S3 – Data storage
-Python – Project setup and data processing
-Git – Version control
+- **Snowflake** – Data warehouse
+- **dbt** – Data transformation and testing
+- **AWS S3** – Data storage
+- **Python** – Project setup and data processing
+- **Git** – Version control
 
 📊 Data Layers
 
@@ -38,13 +39,13 @@ Analytics-ready models, including fact tables and a One Big Table (OBT).
 The project also uses dbt snapshots (SCD Type 2) to keep track of historical changes.
 
 ✨ Key Features
-Medallion architecture
-Incremental dbt models
-SCD Type 2 snapshots
-Custom dbt macros
-Data quality tests
-Jinja templating
-dbt documentation and lineage
+- Medallion architecture
+- Incremental dbt models
+- SCD Type 2 snapshots
+- Custom dbt macros
+- Data quality tests
+- Jinja templating
+- dbt documentation and lineage
 
 🚀 Getting Started
 1. Clone the repository

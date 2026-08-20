@@ -18,20 +18,20 @@ Snowflake
 Bronze → Silver → Gold
    ↓
 Analytics-ready data
+
 🛠️ Tech Stack
 Snowflake – Data warehouse
 dbt – Data transformation and testing
 AWS S3 – Data storage
 Python – Project setup and data processing
 Git – Version control
+
 📊 Data Layers
 
 Bronze
 Raw Airbnb data with minimal transformations.
-
 Silver
 Cleaned and standardized listings, hosts, and booking data.
-
 Gold
 Analytics-ready models, including fact tables and a One Big Table (OBT).
 
@@ -45,6 +45,7 @@ Custom dbt macros
 Data quality tests
 Jinja templating
 dbt documentation and lineage
+
 🚀 Getting Started
 1. Clone the repository
 git clone <your-repository-url>
@@ -64,6 +65,7 @@ To generate the documentation:
 
 dbt docs generate
 dbt docs serve
+
 🎯 Goal
 
 The goal of this project is to practice building a modern data pipeline and working with cloud data warehousing, dbt transformations, data quality, and dimensional modeling.

@@ -8,7 +8,7 @@ This project demonstrates how raw Airbnb data can be transformed into analytics-
 
 The pipeline covers data ingestion, transformation, testing, and historical data tracking.
 
-Architecture
+🏗️ Architecture
 CSV Data
    ↓
 AWS S3
@@ -17,7 +17,7 @@ Snowflake
    ↓
 Bronze → Silver → Gold
    ↓
-Analytics-ready data
+Analytics-ready Data
 
 🛠️ Tech Stack
 Snowflake – Data warehouse
